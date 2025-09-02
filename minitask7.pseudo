@@ -10,6 +10,6 @@ Phi <- 22/7
 ENDIF
 
 Luas <- Phi * R * R
-keliling <- 2 * Phi * 9
+keliling <- 2 * Phi * R
 OUTPUT Luas
 OUTPUT keliling
