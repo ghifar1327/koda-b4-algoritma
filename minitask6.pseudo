@@ -1,0 +1,10 @@
+DECLARE Angka : INTEGER
+DECLARE Hasil : INTEGER
+
+Angka <- 9
+Hasil <- Angka % 2
+IF Hasil == 0 THEN
+OUTPUT "genap"
+ELSE 
+OUTPUT "ganjil"
+ENDIF
