@@ -6,6 +6,5 @@ a([start])-->b[/Jarak/]--->c[/Flat <- 8000/]--->d[/Extrakm <- 3000/]--->e[/Km <-
 f--->|false|h[ Ongkir<- Flat]
 g-->i[/Ongkir/]
 h--->i
-i--->j[OUTPUT Ongkir]
-j--->k(((end)))
+i--->k(((end)))
 ```
