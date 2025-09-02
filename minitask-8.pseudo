@@ -1,0 +1,17 @@
+DECLARE Jarak : INTEGER
+DECLARE Flat : INTEGER
+DECLARE Extrakm : INTEGER
+DECLARE Km : INTEGER
+DECLARE Ongkir : INTEGER
+Jarak <- 7
+Flat <- 8000
+Extrakm <- 3000
+Km <- Jarak - 5
+
+IF Jarak >= 5 THEN
+Ongkir <- Flat + Extrakm * Km
+ELSE 
+Ongkir <- Flat
+ENDIF
+
+OUTPUT Ongkir
