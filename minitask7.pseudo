@@ -1,6 +1,7 @@
 DECLARE R : INTEGER
 DECLARE Phi : INTEGER
-DECLARE Hasil : INTEGER
+DECLARE Luas : INTEGER
+DECLARE keliling : INTEGER
 R <- 14
 Phi <- 3.14
 
@@ -8,5 +9,7 @@ IF R % 7 == 0 THEN
 Phi <- 22/7
 ENDIF
 
-Hasil <- Phi * R * R
-OUTPUT Hasil
+Luas <- Phi * R * R
+keliling <- 2 * Phi * 9
+OUTPUT Luas
+OUTPUT keliling
