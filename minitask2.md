@@ -1,6 +1,8 @@
 # membuat algoritma menentukan bilangan ganjil atau genap
 
-1. tentukan 1 bilangan bulat
-2. gunakan metode modulus % 2
-3. jika hasilnya 0 adalah bilangan genap
-4. jika hasilnya 1 adalah bilangan ganjil
+1. mulai
+2. tentukan angka bilangan bulat
+2. jika angka bisa habis dibagi dua atau sama dengan nol 
+3. adalah bilangan genap, jika tidak
+4. adalah bilangan ganjil
+5. selesai

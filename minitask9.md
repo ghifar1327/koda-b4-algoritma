@@ -3,21 +3,21 @@
 ```mermaid
 flowchart TB
 1([start])
-nilai[/Nilai/]
-a[/Score = A/]
-b[/Score = B/]
-c[/Score = C/]
-d[/Score = D/]
-e[/Score = E/]
-f[/Score = F/]
-g[/Score = ERROR/]
+nilai[/Score/]
+a[/"'Grade A'"/]
+b[/"'Grade B'"/]
+c[/"'Grade C'"/]
+d[/"'Grade D'"/]
+e[/"'Grade E'"/]
+f[/"'Grade F'"/]
+g[/"'ERROR'"/]
 
-a1{Nilai >= 90 & Nilai <= 100}
-b1{Nilai <= 89 & Nilai >= 75}
-c1{Nilai <= 74 & Nilai >= 60}
-d1{Nilai <= 59 & Nilai >= 40}
-e1{Nilai <= 39 & Nilai >= 20}
-f1{Nilai <= 19 & Nilai >= 0}
+a1{Score >= 90 AND Score <= 100}
+b1{Score <= 89 AND Score >= 75}
+c1{Score <= 74 AND Score >= 60}
+d1{Score <= 59 AND Score >= 40}
+e1{Score <= 39 AND Score >= 20}
+f1{Score <= 19 AND Score >= 0}
 
 1--->nilai
 nilai--->a1--->|true|a

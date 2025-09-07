@@ -1,10 +1,8 @@
 DECLARE Score : INTEGER
 
-Score <- 0
+Score <- -1
 
-IF (Score < 0) OR (Score > 100) THEN
-    OUTPUT "Error"
-ELSE IF (Score >= 90) AND (Score <= 100) THEN
+IF (Score >= 90) AND (Score <= 100) THEN
     OUTPUT "Grade A"
 ELSE IF (Score >= 75) AND (Score <= 89) THEN
     OUTPUT "Grade B"
